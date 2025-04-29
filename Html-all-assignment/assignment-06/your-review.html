@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Reviews</title>
+  </head>
+  <body>
+    <center>
+      <table
+        border="0"
+        height="38"
+        style="font-size: larger"
+        cellpadding="14"
+        cellspacing="0"
+      >
+        <tr>
+          <th bgcolor="#90EE90">Step 1: Account</th>
+          &nbsp;&nbsp;&nbsp;
+          <th bgcolor="#90EE90">Step 2: Personal Details</th>
+          &nbsp;&nbsp;&nbsp;
+          <th bgcolor="#488AC7">Step 3: Your Review</th>
+          &nbsp;&nbsp;&nbsp;
+        </tr>
+      </table>
+    </center>
+    <br /><br />
+    <form
+      style="padding-top: 10px; width: 750px; margin: auto; font-size: larger"
+    >
+      <fieldset>
+        <legend><h3>Your Review:</h3></legend>
+        <strong><label for="hear">How did you hear about us?</label></strong>
+        <select id="hear">
+          <option>Select your option</option>
+          <option>Socialmedia</option>
+          <option>Friends and family</option>
+          <option>Others</option>
+        </select>
+
+        <br /><br />
+
+        <strong><label>Would you visit again?</label></strong><br />
+        <input type="radio" id="yes" name="visit" />
+        <label for="yes">yes</label>
+
+        <input type="radio" id="No" name="visit" />
+        <label for="No">No</label>
+
+        <input type="radio" id="Maybe" name="visit" />
+        <label for="Maybe">Maybe</label>
+        <br /><br />
+
+        <strong>Comments:</strong><br />
+        <textarea name="Comment" rows="4" cols="40">
+        Enter your comment hear....
+
+        </textarea>
+        <br /><br />
+        <strong><label>Documents:</label></strong
+        ><br />
+        <input type="file" name="profile" />
+        <br /><br />
+        <input type="checkbox" name="yes" id="email-update" checked />
+        <label for="yes"><strong>Sign me up for email updates</strong></label>
+
+        <br /><br />
+
+        <a href="personal-details.html"
+          ><img
+            src="images/back.png"
+            alt="Arrow button"
+            width="150"
+            height="50"
+        /></a>
+        <b>-</b>
+        <a href="index.html"
+          ><img
+            src="images/submit.png"
+            alt="Arrow button"
+            width="150"
+            height="50"
+        /></a>
+      </fieldset>
+      <br /><br /><br />
+    </form>
+  </body>
+</html>
